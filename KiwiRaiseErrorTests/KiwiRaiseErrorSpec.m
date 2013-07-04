@@ -13,9 +13,6 @@ SPEC_BEGIN(KiwiRaiseErrorSpec)
             [[array should] isKindOfClass:[NSArray class]];
             [[array should] haveCountOf:5];
         });
-    });
-
-    describe(@"Array", ^{
         it(@"has NSNumber objects", ^{
             NSArray *array = @[@1, @2, @3, @4, @5];
             for (id obj in array) {
@@ -23,5 +20,6 @@ SPEC_BEGIN(KiwiRaiseErrorSpec)
             }
         });
     });
+
 
 SPEC_END
