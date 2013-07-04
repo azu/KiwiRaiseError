@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17B5C08F60E84FF6D60BE5A5 /* KiwiRaiseErrorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C929CE226F3AFF1E7828 /* KiwiRaiseErrorSpec.m */; };
 		7396B38F1785A4480074A210 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7396B38E1785A4480074A210 /* Foundation.framework */; };
 		7396B3941785A4480074A210 /* KiwiRaiseError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7396B3931785A4480074A210 /* KiwiRaiseError.h */; };
 		7396B3961785A4480074A210 /* KiwiRaiseError.m in Sources */ = {isa = PBXBuildFile; fileRef = 7396B3951785A4480074A210 /* KiwiRaiseError.m */; };
@@ -15,7 +16,7 @@
 		7396B3A11785A4480074A210 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7396B38E1785A4480074A210 /* Foundation.framework */; };
 		7396B3A41785A4480074A210 /* libKiwiRaiseError.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7396B38B1785A4480074A210 /* libKiwiRaiseError.a */; };
 		7396B3AA1785A4480074A210 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7396B3A81785A4480074A210 /* InfoPlist.strings */; };
-		7396B3AD1785A4480074A210 /* KiwiRaiseErrorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7396B3AC1785A4480074A210 /* KiwiRaiseErrorTests.m */; };
+		E86D7113DB6344939E79F752 /* libPods-KiwiRaiseErrorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4458E0A4DB77492788718B2A /* libPods-KiwiRaiseErrorTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		17B5C929CE226F3AFF1E7828 /* KiwiRaiseErrorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KiwiRaiseErrorSpec.m; sourceTree = "<group>"; };
+		4458E0A4DB77492788718B2A /* libPods-KiwiRaiseErrorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KiwiRaiseErrorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E18FAEB31604B4EB364A6F9 /* Pods/Pods-KiwiRaiseErrorTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods/Pods-KiwiRaiseErrorTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		7396B38B1785A4480074A210 /* libKiwiRaiseError.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKiwiRaiseError.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7396B38E1785A4480074A210 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7396B3921785A4480074A210 /* KiwiRaiseError-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KiwiRaiseError-Prefix.pch"; sourceTree = "<group>"; };
@@ -52,8 +56,6 @@
 		7396B39F1785A4480074A210 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		7396B3A71785A4480074A210 /* KiwiRaiseErrorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KiwiRaiseErrorTests-Info.plist"; sourceTree = "<group>"; };
 		7396B3A91785A4480074A210 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7396B3AB1785A4480074A210 /* KiwiRaiseErrorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KiwiRaiseErrorTests.h; sourceTree = "<group>"; };
-		7396B3AC1785A4480074A210 /* KiwiRaiseErrorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiwiRaiseErrorTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				7396B3A01785A4480074A210 /* UIKit.framework in Frameworks */,
 				7396B3A11785A4480074A210 /* Foundation.framework in Frameworks */,
 				7396B3A41785A4480074A210 /* libKiwiRaiseError.a in Frameworks */,
+				E86D7113DB6344939E79F752 /* libPods-KiwiRaiseErrorTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +89,7 @@
 				7396B3A51785A4480074A210 /* KiwiRaiseErrorTests */,
 				7396B38D1785A4480074A210 /* Frameworks */,
 				7396B38C1785A4480074A210 /* Products */,
+				4E18FAEB31604B4EB364A6F9 /* Pods/Pods-KiwiRaiseErrorTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +108,7 @@
 				7396B38E1785A4480074A210 /* Foundation.framework */,
 				7396B39D1785A4480074A210 /* SenTestingKit.framework */,
 				7396B39F1785A4480074A210 /* UIKit.framework */,
+				4458E0A4DB77492788718B2A /* libPods-KiwiRaiseErrorTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -129,9 +134,8 @@
 		7396B3A51785A4480074A210 /* KiwiRaiseErrorTests */ = {
 			isa = PBXGroup;
 			children = (
-				7396B3AB1785A4480074A210 /* KiwiRaiseErrorTests.h */,
-				7396B3AC1785A4480074A210 /* KiwiRaiseErrorTests.m */,
 				7396B3A61785A4480074A210 /* Supporting Files */,
+				17B5C929CE226F3AFF1E7828 /* KiwiRaiseErrorSpec.m */,
 			);
 			path = KiwiRaiseErrorTests;
 			sourceTree = "<group>";
@@ -169,10 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7396B3B31785A4480074A210 /* Build configuration list for PBXNativeTarget "KiwiRaiseErrorTests" */;
 			buildPhases = (
+				4F1C1F3CDDE04DB2B2FDEBCE /* Check Pods Manifest.lock */,
 				7396B3971785A4480074A210 /* Sources */,
 				7396B3981785A4480074A210 /* Frameworks */,
 				7396B3991785A4480074A210 /* Resources */,
 				7396B39A1785A4480074A210 /* ShellScript */,
+				E4B6D88218CF4338A8317ED0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -203,6 +209,8 @@
 			mainGroup = 7396B3821785A4480074A210;
 			productRefGroup = 7396B38C1785A4480074A210 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+			);
 			projectRoot = "";
 			targets = (
 				7396B38A1785A4480074A210 /* KiwiRaiseError */,
@@ -223,6 +231,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4F1C1F3CDDE04DB2B2FDEBCE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		7396B39A1785A4480074A210 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -235,6 +258,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		E4B6D88218CF4338A8317ED0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-KiwiRaiseErrorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -251,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7396B3AD1785A4480074A210 /* KiwiRaiseErrorTests.m in Sources */,
+				17B5C08F60E84FF6D60BE5A5 /* KiwiRaiseErrorSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +394,7 @@
 		};
 		7396B3B41785A4480074A210 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E18FAEB31604B4EB364A6F9 /* Pods/Pods-KiwiRaiseErrorTests.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -371,6 +410,7 @@
 		};
 		7396B3B51785A4480074A210 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E18FAEB31604B4EB364A6F9 /* Pods/Pods-KiwiRaiseErrorTests.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
