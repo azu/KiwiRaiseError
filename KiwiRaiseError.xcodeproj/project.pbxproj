@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7396B38F1785A4480074A210 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7396B38E1785A4480074A210 /* Foundation.framework */; };
+		7396B3941785A4480074A210 /* KiwiRaiseError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7396B3931785A4480074A210 /* KiwiRaiseError.h */; };
+		7396B3961785A4480074A210 /* KiwiRaiseError.m in Sources */ = {isa = PBXBuildFile; fileRef = 7396B3951785A4480074A210 /* KiwiRaiseError.m */; };
+		7396B39E1785A4480074A210 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7396B39D1785A4480074A210 /* SenTestingKit.framework */; };
+		7396B3A01785A4480074A210 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7396B39F1785A4480074A210 /* UIKit.framework */; };
+		7396B3A11785A4480074A210 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7396B38E1785A4480074A210 /* Foundation.framework */; };
+		7396B3A41785A4480074A210 /* libKiwiRaiseError.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7396B38B1785A4480074A210 /* libKiwiRaiseError.a */; };
+		7396B3AA1785A4480074A210 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7396B3A81785A4480074A210 /* InfoPlist.strings */; };
+		7396B3AD1785A4480074A210 /* KiwiRaiseErrorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7396B3AC1785A4480074A210 /* KiwiRaiseErrorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7396B3A21785A4480074A210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7396B3831785A4480074A210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7396B38A1785A4480074A210;
+			remoteInfo = KiwiRaiseError;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7396B3891785A4480074A210 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				7396B3941785A4480074A210 /* KiwiRaiseError.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7396B38B1785A4480074A210 /* libKiwiRaiseError.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKiwiRaiseError.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7396B38E1785A4480074A210 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7396B3921785A4480074A210 /* KiwiRaiseError-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KiwiRaiseError-Prefix.pch"; sourceTree = "<group>"; };
+		7396B3931785A4480074A210 /* KiwiRaiseError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KiwiRaiseError.h; sourceTree = "<group>"; };
+		7396B3951785A4480074A210 /* KiwiRaiseError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiwiRaiseError.m; sourceTree = "<group>"; };
+		7396B39C1785A4480074A210 /* KiwiRaiseErrorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiwiRaiseErrorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7396B39D1785A4480074A210 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7396B39F1785A4480074A210 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7396B3A71785A4480074A210 /* KiwiRaiseErrorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KiwiRaiseErrorTests-Info.plist"; sourceTree = "<group>"; };
+		7396B3A91785A4480074A210 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7396B3AB1785A4480074A210 /* KiwiRaiseErrorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KiwiRaiseErrorTests.h; sourceTree = "<group>"; };
+		7396B3AC1785A4480074A210 /* KiwiRaiseErrorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiwiRaiseErrorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7396B3881785A4480074A210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7396B38F1785A4480074A210 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7396B3981785A4480074A210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7396B39E1785A4480074A210 /* SenTestingKit.framework in Frameworks */,
+				7396B3A01785A4480074A210 /* UIKit.framework in Frameworks */,
+				7396B3A11785A4480074A210 /* Foundation.framework in Frameworks */,
+				7396B3A41785A4480074A210 /* libKiwiRaiseError.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7396B3821785A4480074A210 = {
+			isa = PBXGroup;
+			children = (
+				7396B3901785A4480074A210 /* KiwiRaiseError */,
+				7396B3A51785A4480074A210 /* KiwiRaiseErrorTests */,
+				7396B38D1785A4480074A210 /* Frameworks */,
+				7396B38C1785A4480074A210 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7396B38C1785A4480074A210 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7396B38B1785A4480074A210 /* libKiwiRaiseError.a */,
+				7396B39C1785A4480074A210 /* KiwiRaiseErrorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7396B38D1785A4480074A210 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7396B38E1785A4480074A210 /* Foundation.framework */,
+				7396B39D1785A4480074A210 /* SenTestingKit.framework */,
+				7396B39F1785A4480074A210 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7396B3901785A4480074A210 /* KiwiRaiseError */ = {
+			isa = PBXGroup;
+			children = (
+				7396B3931785A4480074A210 /* KiwiRaiseError.h */,
+				7396B3951785A4480074A210 /* KiwiRaiseError.m */,
+				7396B3911785A4480074A210 /* Supporting Files */,
+			);
+			path = KiwiRaiseError;
+			sourceTree = "<group>";
+		};
+		7396B3911785A4480074A210 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7396B3921785A4480074A210 /* KiwiRaiseError-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7396B3A51785A4480074A210 /* KiwiRaiseErrorTests */ = {
+			isa = PBXGroup;
+			children = (
+				7396B3AB1785A4480074A210 /* KiwiRaiseErrorTests.h */,
+				7396B3AC1785A4480074A210 /* KiwiRaiseErrorTests.m */,
+				7396B3A61785A4480074A210 /* Supporting Files */,
+			);
+			path = KiwiRaiseErrorTests;
+			sourceTree = "<group>";
+		};
+		7396B3A61785A4480074A210 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7396B3A71785A4480074A210 /* KiwiRaiseErrorTests-Info.plist */,
+				7396B3A81785A4480074A210 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7396B38A1785A4480074A210 /* KiwiRaiseError */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7396B3B01785A4480074A210 /* Build configuration list for PBXNativeTarget "KiwiRaiseError" */;
+			buildPhases = (
+				7396B3871785A4480074A210 /* Sources */,
+				7396B3881785A4480074A210 /* Frameworks */,
+				7396B3891785A4480074A210 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KiwiRaiseError;
+			productName = KiwiRaiseError;
+			productReference = 7396B38B1785A4480074A210 /* libKiwiRaiseError.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7396B39B1785A4480074A210 /* KiwiRaiseErrorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7396B3B31785A4480074A210 /* Build configuration list for PBXNativeTarget "KiwiRaiseErrorTests" */;
+			buildPhases = (
+				7396B3971785A4480074A210 /* Sources */,
+				7396B3981785A4480074A210 /* Frameworks */,
+				7396B3991785A4480074A210 /* Resources */,
+				7396B39A1785A4480074A210 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7396B3A31785A4480074A210 /* PBXTargetDependency */,
+			);
+			name = KiwiRaiseErrorTests;
+			productName = KiwiRaiseErrorTests;
+			productReference = 7396B39C1785A4480074A210 /* KiwiRaiseErrorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7396B3831785A4480074A210 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = azu;
+			};
+			buildConfigurationList = 7396B3861785A4480074A210 /* Build configuration list for PBXProject "KiwiRaiseError" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7396B3821785A4480074A210;
+			productRefGroup = 7396B38C1785A4480074A210 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7396B38A1785A4480074A210 /* KiwiRaiseError */,
+				7396B39B1785A4480074A210 /* KiwiRaiseErrorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7396B3991785A4480074A210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7396B3AA1785A4480074A210 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7396B39A1785A4480074A210 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7396B3871785A4480074A210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7396B3961785A4480074A210 /* KiwiRaiseError.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7396B3971785A4480074A210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7396B3AD1785A4480074A210 /* KiwiRaiseErrorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7396B3A31785A4480074A210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7396B38A1785A4480074A210 /* KiwiRaiseError */;
+			targetProxy = 7396B3A21785A4480074A210 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7396B3A81785A4480074A210 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7396B3A91785A4480074A210 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7396B3AE1785A4480074A210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7396B3AF1785A4480074A210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7396B3B11785A4480074A210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/KiwiRaiseError.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KiwiRaiseError/KiwiRaiseError-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7396B3B21785A4480074A210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/KiwiRaiseError.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KiwiRaiseError/KiwiRaiseError-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7396B3B41785A4480074A210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KiwiRaiseError/KiwiRaiseError-Prefix.pch";
+				INFOPLIST_FILE = "KiwiRaiseErrorTests/KiwiRaiseErrorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7396B3B51785A4480074A210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KiwiRaiseError/KiwiRaiseError-Prefix.pch";
+				INFOPLIST_FILE = "KiwiRaiseErrorTests/KiwiRaiseErrorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7396B3861785A4480074A210 /* Build configuration list for PBXProject "KiwiRaiseError" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7396B3AE1785A4480074A210 /* Debug */,
+				7396B3AF1785A4480074A210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7396B3B01785A4480074A210 /* Build configuration list for PBXNativeTarget "KiwiRaiseError" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7396B3B11785A4480074A210 /* Debug */,
+				7396B3B21785A4480074A210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7396B3B31785A4480074A210 /* Build configuration list for PBXNativeTarget "KiwiRaiseErrorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7396B3B41785A4480074A210 /* Debug */,
+				7396B3B51785A4480074A210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7396B3831785A4480074A210 /* Project object */;
+}
