@@ -10,13 +10,13 @@ SPEC_BEGIN(KiwiRaiseErrorSpec)
     describe(@"Array", ^{
         it(@"has five objects", ^{
             NSArray *array = @[@1, @2, @3, @4, @5];
-            [[array should] isKindOfClass:[NSArray class]];
+            [[array should] beKindOfClass:[NSArray class]];
             [[array should] haveCountOf:5];
         });
         it(@"has NSNumber objects", ^{
             NSArray *array = @[@1, @2, @3, @4, @5];
             for (id obj in array) {
-                [[obj should] isKindOfClass:[NSNumber class]];
+                [[obj should] beKindOfClass:[NSNumber class]];
             }
         });
     });
